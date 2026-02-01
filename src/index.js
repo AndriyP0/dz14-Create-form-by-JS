@@ -11,7 +11,7 @@ const divPersonalInfo = document.createElement("div");
 divPersonalInfo.className = "personal-info";
 
 const divFormElementRadioCheck = document.createElement("div");
-divFormElementRadioCheck.className = "form-element-radio-cheсk";
+divFormElementRadioCheck.className = "form-element-radio-check";
 
 const divFooter = document.createElement("div");
 divFooter.className = "footer";
@@ -150,4 +150,5 @@ divFormElementRadioCheck.append(
 divFooter.append(buttonfooter);
 // =======Apeend all sections to form========
 form.append(divHeader, divPersonalInfo, divFormElementRadioCheck, divFooter);
-// body.append(form);
+
+body.append(form);
